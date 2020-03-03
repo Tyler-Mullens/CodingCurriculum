@@ -1,0 +1,38 @@
+.interior {
+    width: 80px;
+    height: 80px;
+    border: white solid 4px;
+}
+.div1 {
+    z-index: 1;
+    position: absolute;
+    background-color: red;
+}
+.div2 {
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+    position: absolute;
+    background-color: orange;
+}
+.div3 {
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+    position: absolute;
+    background-color: yellow;
+}
+.div4 {
+    top: 150px;
+    left: 150px;
+    z-index: 4;
+    position: absolute;
+    background-color: blue;
+}
+.div5{
+    top: 200px;
+    left: 200px;
+    z-index: 5;
+    position: absolute;
+    background-color: violet;
+}

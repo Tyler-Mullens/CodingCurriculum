@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 175px;
+    width: 175px;
+}
+.interior {
+    display: block;
+    background-color: blue;
+    height: 75px;
+    width: 75px;
+}
+.div5{
+    display: flex;
+    background-color: red;
+    z-index: 5;
+    position: absolute;
+    top: 52px;
+    left: 52px;
+    transform: rotate(45deg);
+    justify-content: center;
+}
+.div5::after {
+    width: 20px;
+    height: 20px;
+    content: "★";
+    transform: rotate(-45deg);
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
