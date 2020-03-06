@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 175px;
+    width: 175px;
+}
+.interior {
+    display: block;
+    background-color: blue;
+    height: 75px;
+    width: 75px;
+}
+.div5{
+    display: block;
+    background-color: red;
+    z-index: 5;
+    position: absolute;
+    top: 52px;
+    left: 52px;
+    transform: rotate(45deg);
+}
